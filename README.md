@@ -29,11 +29,24 @@ Build for production:
 npm run build
 ```
 
+Run the built application:
+
+```sh
+npm start
+```
+
 Run tests:
 
 ```sh
 npm test                # Jest
 npm run test:vitest     # Vitest
+```
+
+Format code:
+
+```sh
+npm run format          # Format all files
+npm run format:check    # Check formatting
 ```
 
 Lint code:

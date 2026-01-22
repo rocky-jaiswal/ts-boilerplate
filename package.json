@@ -7,9 +7,12 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
+    "start": "node dist/index.js",
     "dev": "npx tsx watch ./src/index.ts",
     "build": "rm -rf dist && mkdir dist && npx tsc",
     "lint": "npx eslint ./src",
+    "format": "npx prettier --write \"src/**/*.{ts,js,json}\"",
+    "format:check": "npx prettier --check \"src/**/*.{ts,js,json}\"",
     "test": "jest",
     "test:vitest": "vitest run",
     "test:vitest:watch": "vitest"
