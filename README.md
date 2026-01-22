@@ -6,7 +6,7 @@ A minimal TypeScript starter template with modern tooling.
 
 - Node.js 20+
 - TypeScript 5.8
-- Jest & Vitest for testing
+- Jest & Vitest for testing (choose one)
 - ESLint + Prettier
 
 ## Getting Started
